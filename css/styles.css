@@ -41,3 +41,17 @@ img {
     height: auto;
     width: 500px;
 }
+
+/*selector can be a type, class or id
+* - everything
+div
+.class1
+#id
+
+/* descendant combinator, all class 2 descended from class 1
+.class1 .class2
+div p
+*/
+
+/*chaining selectors, all class1+class2 on
+.class1.class2
