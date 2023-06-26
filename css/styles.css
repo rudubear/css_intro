@@ -1,8 +1,43 @@
-div.bold-text {
-    font-weight: 7;
-    color: red;
+* {
+    line-height: 1.5;
 }
 
 div {
-    color: yellow;
+    color: blueviolet;
+}
+
+.alert-text {
+    color:chocolate;
+}
+
+#title {
+    color:darkblue;
+}
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview{
+    color:blue;
+}
+
+.ancestor .contents {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/*essential css styles*/
+p {
+    color: chartreuse;
+    background-color: darkred;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
