@@ -42,16 +42,22 @@ img {
     width: 500px;
 }
 
-/*selector can be a type, class or id
+/*
+selector can be a type class or id
 * - everything
 div
 .class1
 #id
 
-/* descendant combinator, all class 2 descended from class 1
+descendant combinator : all class 2 descended from class 1
 .class1 .class2
 div p
-*/
 
-/*chaining selectors, all class1+class2 on
+
+grouping selectors, 
+.class1, .class2 : all class 1 and all class 2 together for modification, used for common styling 
+
+
+chaining selectors : all class1+class2 on
 .class1.class2
+*/
